@@ -1,0 +1,10 @@
+.BusStations {
+    flex: 1;
+    max-height: 100%;
+    padding-right: 20px;
+    overflow: auto;
+    ul.stations {
+        list-style-type: none;
+        padding-left: 0;
+    }
+}

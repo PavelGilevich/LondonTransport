@@ -1,0 +1,43 @@
+.BusSchedule {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    .placeholder {
+        margin: auto;
+        color: #bbb;
+    }
+    .schedule {
+        height: 100%;
+        overflow: auto;
+        .name {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .wrapper-lines {
+            text-align: left;
+            ul.lines {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 0;
+                li {
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0 10px;
+                    cursor: pointer;
+                    border: 1px solid #ccc;
+                    &.active {
+                        background-color: #343a40;
+                        color: #fff;
+                    }
+                    &:hover {
+                        &:not(.active) {
+                            background-color: #ddd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

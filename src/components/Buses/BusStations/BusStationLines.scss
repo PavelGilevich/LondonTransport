@@ -1,0 +1,11 @@
+.BusStationLines {
+    ul.lines {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            padding: 0 10px;
+        }
+    }
+}

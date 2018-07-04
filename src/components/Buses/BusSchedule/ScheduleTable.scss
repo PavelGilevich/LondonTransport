@@ -1,0 +1,32 @@
+.ScheduleTable {
+    table {
+        thead {
+            tr {
+                td {
+                    text-align: left;
+                    &.minutes {
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    padding: 5px 0;
+                    &.hours {
+                        font-weight: 700;
+                    }
+                    &.minutes {
+                        text-align: left;
+                        padding-left: 10px;
+                        span {
+                            display: inline-block;
+                            margin: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

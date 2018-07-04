@@ -1,0 +1,33 @@
+.Buses {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    .search-block {
+        flex: 0 0 35%;
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+        .search-wrapper {
+            flex: 0;
+            padding-right: 20px;
+            >div {
+                text-align: left;
+                width: 100%;
+                input {
+                    width: 100%;
+                }
+                .row-autocomplete {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+            }
+            .label {
+                margin-top:10px
+            }
+        }
+    }
+    .schedule-block {
+        flex: 1;
+        border-left: double #bbb;
+    }
+}
